@@ -16,7 +16,7 @@ Unsupervised Learning is a type of machine learning technique in which there is 
 Model inspects data to discover patterns. Then human use the pattern learn by the model to gain new understandings or make predictions. 
 
 #### Reinforcement Learning 
-Reinforcement Learning learns through consequences of actions in an environment. Ex. training pet. 
+Reinforcement Learning learns through consequences of actions in an environment. Ex. training pet. The algorithm figures out which actions to take in a situation to maximize a reward on the way to reaching a specific goal. 
 
 #### Component of Machine Learning
 * Machine Learning Model - extremely generic program(or block of code), made specific by the data used to train it. It is used to solve different problems. ( *generic problem made specific by data* )
