@@ -11,7 +11,7 @@ Unsupervised learning task helps to determine if there are any naturally occurin
 
 #### Component of Machine Learning
 * Machine Learning Model - extremely generic program(or block of code), made specific by the data used to train it. It is used to solve different problems. ( *generic problem made specific by data* )
-* Model Training Algorithm - Model training algorithms work through an interactive process. It thinks about the changes that need to be made and make those changes and repeat these process. ( *an iterative process fitting a generic model to soecific data* )
+* Model Training Algorithm - Model training algorithms work through an interactive process. It thinks about the changes that need to be made and make those changes and repeat these process. ( *an iterative process fitting a generic model to soecific data* )( *iteratively update model parameters to minimize some loss function* )
 * Model Inference algorithm - generates prediction using the trained model. ( *process to use a trained model to solve a task* )
 
 #### Continuous Label
@@ -29,14 +29,36 @@ doesn't have a discrete set of possible values, which means possibly an unlimite
   * Shape of the data
 * Data Visualization
 
+#### Deep Learning
+Extremely popular and powerful, a modern approach based around a conceptual model of how the human brain functions. The model is composed of collections of nueronos connected together by weights. The process of training involves finding values for each weight. 
+* FFNN - Feed Forward Neural Network structures neurons in a series of layers, with each neuron in a layer containing weights to all neurons in the previous layer. 
+* CNN - Convolutional Nueral Network represents nested filters over grid-organized data. Most commonly used type of model when processing images. 
+* RNN/LSTM - Recuurent neural Network and the Long Short-term Memory model type are structured efficiently represenet for loops in traditional computing, collecting state while iterating over some object. Used for processing sequences of data. 
+* Transformer - A more modern replacement for RNN/LSTMs, the transformer architecture enables training over larger datasets involving sequences of data. 
+
+#### Hyperparameters 
+are settings on the model which are not changed during training but can affect how quickly or how reliably the model trains, such as the number of clusters the model should identify. 
+
 #### Label Data
 refers to data that already contains the solution. 
+
+#### Linear Models
+describe the relationship between a set of inpus numbers and a set of output numbers through a linear function. Linear models are fast to train. Classification tasks often use a strongly related logistic model.  
+
+#### Loss Function
+Measurement of how close the model is to its goal. 
 
 #### Machine Learning
 Which allows computers to automatically learn and improve from experience without being explicitly programmed to do so. Using machine learning computer learn to ***discover patterns*** and ***make predictions***. It combines statistics, applied math and computer science. 
 
 #### Model
 Model inspects data to discover patterns. Then human use the pattern learn by the model to gain new understandings or make predictions. 
+
+#### Model Parameters 
+Configuration that changes how the model behaves 
+
+#### Model Selection
+determines which model or models to use. 
 
 #### Reinforcement Learning 
 Reinforcement Learning learns through consequences of actions in an environment. Ex. training pet. The algorithm figures out which actions to take in a situation to maximize a reward on the way to reaching a specific goal. 
@@ -45,11 +67,18 @@ Reinforcement Learning learns through consequences of actions in an environment.
 * Defining the problem
 * Building the dataset
 * Training the model
+ * Splitting Dataset
 * Evaluating the model
 * Using the model
 
 #### Supervised Learning
 Supervised Learning is a type of machine learning technique in which every training sample from the dataset has a corresponding label or output value associated with it. Supervised learning algorithms learn to predict labels or output values. ***Regression*** and ***Classification*** are supervised leraning. 
+
+#### Test Dataset
+The test dataset will be used during model evaluation.
+
+#### Tree-based Models
+Lean to categorize or regress by building an extremely large structure of nested if/else blocks, splitting thw world into different regions at ech if/else block. Training determines exactly where these splits happen and what value is assigned at each leaf region. Ex. XGBBoost Model.
 
 #### Unlabeled Data
 means you don't need to provide the model with any kind of label or solution while the model is being trained. 
@@ -59,3 +88,5 @@ Unsupervised Learning is a type of machine learning technique in which there is 
 
 ### Resources
 * [Udacity - AWS foundational Course](https://www.udacity.com/course/aws-machine-learning-foundations--ud090)
+* Classical Models Library - scikit-learn
+* Deep Learning Library - mxnet, tensorflow, pytorch
