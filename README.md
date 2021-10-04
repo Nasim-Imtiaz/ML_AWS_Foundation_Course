@@ -4,7 +4,7 @@
 AI refers to the broad capability of machines to perform activities using human-like intelligence. 
 
 #### Machine Learning
-ML is a type of machine learning that allows computers to automatically learn and improve from experience without being explicitly programmed to do so. Using machine learning computer learn to ***discover patterns*** and ***make predictions***. It combines statistics, applied math and computer science. 
+Which allows computers to automatically learn and improve from experience without being explicitly programmed to do so. Using machine learning computer learn to ***discover patterns*** and ***make predictions***. It combines statistics, applied math and computer science. 
 
 #### Supervised Learning
 Supervised Learning is a type of machine learning technique in which every training sample from the dataset has a corresponding label or output value associated with it. Supervised learning algorithms learn to predict labels or output values. ***Regression*** and ***Classification*** are supervised leraning. 
