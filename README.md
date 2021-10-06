@@ -1,7 +1,49 @@
 # AWS Machine Learning Foundations Nanodegree Program
 
+#### Amazon Codeguru - Code Development
+improve code quality and identify most expensive lines of code. 
+
+#### Amazon Forecast - Forecasting
+acheive high accuracy forecast on product demands, resource needs or financial performance. 
+
+#### Amazon Fruad Detector - Fraud
+identify potentially frauduient activity. 
+
+#### Amazon Lex - Chatbots
+publishes voice or text bots.
+
+#### Amazon Lookout for Metrics - Anomaly Detection
+automatically detect and diagonose anomalies. 
+
+#### Amazon Monitron - Industrial AI
+predicts machines failures.
+
+#### Amazon Personalize - Personalization
+deliver highly customized recommendations. 
+
+#### Amazon Polly - Speech
+turns text into lifelike speech allowing you to create applications that talk.
+
+#### Amazon Recognition - Vision
+fast and accurate face search of private images. 
+
+#### Amazon Transcribe Medical - Health AI
+turns medical speech to text.
+
+#### Amazon Textract - Text
+automatically extracts texts, handwriting, data from scanned document. 
+
 #### Artificial Intelligence
 AI refers to the broad capability of machines to perform activities using human-like intelligence. 
+
+#### AWS DeepComposer
+composite device powered by generative AI that creates a medoly that transforms into a completely original song. 
+
+#### AWS DeepLens
+deep learning-enabled video camera. 
+
+#### AWS DeepRacer
+an autonomous race car designed to test reinforcement learning models by racing a physical track. 
 
 #### Bag of words
 extract features from the text. It counts how many times a word appeares in a document.
@@ -50,6 +92,9 @@ are settings on the model which are not changed during training but can affect h
 
 #### Inference 
 ready to generate predictions on real-world problems using unseen data in the field using the trained model. 
+
+#### Input Layer
+the first layer in a neural ntwork. This layer receives all data that passes through the neural network.
 
 #### Label Data
 refers to data that already contains the solution. 
